@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script:wght@400..700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Dancing+Script:wght@400..700&family=Jacquard+12+Charted&family=Jersey+25&family=Lugrasimo&family=Monoton&family=Sixtyfour+Convergence&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
