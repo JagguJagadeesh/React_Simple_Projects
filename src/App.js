@@ -5,6 +5,7 @@ import PasswordGenrator from "./simpleprojects/PasswordGenrator";
 import CurrencyConverter from "./simpleprojects/Currency/CurrencyConverter";
 import LearningContextAPI from "./simpleprojects/ContextAPI.js/LearningContextAPI";
 import TaskManager from "./simpleprojects/Task_manager/TaskManager";
+import ImageEditer from "./simpleprojects/ImageEditer/ImageEditer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/currencyconvert" element={<CurrencyConverter/>} />
         <Route path="/contextapi" element={<LearningContextAPI/>} />
         <Route path="/taskmanager" element={<TaskManager/>} />
+        <Route path="/imgeditor" element={<ImageEditer/>} />
       </Routes>
     </BrowserRouter>
   );
