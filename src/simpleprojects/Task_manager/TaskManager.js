@@ -36,12 +36,12 @@ function TaskManager() {
         <section className='px-60 text-start'>
             <div className='h-80 overflow-y-auto flex flex-col gap-4'>
                 {
-                    state.map((items)=>{
-                        return <div className='flex gap-1'>
+                    state.map((items)=>
+                        <div className='flex gap-1'>
                                     <div className='w-10/12 pl-10 text-2xl text-white bg-indigo-500 p-3 rounded-lg' >{items.text}</div>
                                     <button className='w-2/12 bg-red-600 p-3 rounded-lg'  onClick={()=>dispatch({type:"DELETE_TASK",payload:items.id})}>Remove</button>
                                 </div>
-                    })
+                    )
                 }
             </div>
         </section>
