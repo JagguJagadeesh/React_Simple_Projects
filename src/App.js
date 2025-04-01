@@ -7,6 +7,7 @@ import LearningContextAPI from "./simpleprojects/ContextAPI.js/LearningContextAP
 import TaskManager from "./simpleprojects/Task_manager/TaskManager";
 import ImageEditer from "./simpleprojects/ImageEditer/ImageEditer";
 import MultiLangTrans from "./simpleprojects/MultiLangTraslator/MultiLangTrans";
+import OriginalClicks from "./simpleprojects/OriginalClicks/OriginalClicks";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/taskmanager" element={<TaskManager/>} />
         <Route path="/imgeditor" element={<ImageEditer/>} />
         <Route path="/languagetranslator" element={<MultiLangTrans/>} />
+        <Route path="/originalclicks" element={<OriginalClicks/>} />
       </Routes>
     </BrowserRouter>
   );

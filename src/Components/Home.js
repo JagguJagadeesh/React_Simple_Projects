@@ -5,6 +5,7 @@ import CurrencyConverterimg from '../Images/currencyconverter.jpeg';
 import TaskManagerimg from '../Images/taskmanager.jpeg';
 import ImageEiditerimg from '../Images/imageediterimg.jpeg'
 import Mulitilang from '../Images/multilangimg.jpg'
+import OriginalClicks from '../Images/orginalClicks.png';
 
 
 function Home() {
@@ -38,6 +39,12 @@ function Home() {
             <img src={PasswordGenratorimge} className='h-64' alt="Projects" />
             <h1 className='text-xl font-extrabold'>Password Generator</h1>
             <p className='text-md font-light m-4 mt-1'>The Password Generator is a React-based application that helps users create strong, secure passwords with ease. It allows users to customize password length and select character types (uppercase, lowercase, numbers, symbols) to generate a unique, random password. With a simple and intuitive interface, Ideal for enhancing online security.</p>
+        </Link> 
+        <Link to='/originalclicks' className='bg-white p-1 pt-4 rounded-lg h-[32rem] col-span-6 flex flex-col gap-4 items-center hover:shadow-2xl '>
+            <img src={OriginalClicks} className='h-64' alt="Projects" />
+            <h1 className='text-xl font-extrabold'>Original Clicks</h1>
+            <p className='text-md font-light m-4 mt-1'>When you click on a box - color should change to green.
+            When you click on the last box, all colors should change to orange in sequence of their clicks original clicks.</p>
         </Link>        
         </div>
     </div>
